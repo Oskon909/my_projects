@@ -118,7 +118,6 @@ def run_pars_selexy():
 
     for link, name_category in enumerate(list_name_category):
         for q in range(1, 200):
-
             link_doska = f'{list_link_category[link]}?page={q}'
             post = requests.get(link_doska, headers=headers)
             postsrc = post.text

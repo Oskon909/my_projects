@@ -25,8 +25,5 @@ print(start_time.time())
 asyncio.run(main())
 end_time = datetime.datetime.now()
 print(end_time.time())
-try:
-    print('hi')
-except Exception as e:
-    print(e)
+
 
